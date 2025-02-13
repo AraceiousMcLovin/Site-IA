@@ -1,0 +1,76 @@
+/* Estilização geral */
+body {
+    background-color: #1b1c30;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.login-container {
+    text-align: center;
+    background-color: #1b1c30;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Logotipo */
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Título */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada */
+input {
+    background-color: #292a38;
+    color: #969795;
+    border-radius: 15px;
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    border: none;
+    margin-bottom: 10px;
+    display: block;
+    outline: none;
+}
+
+/* Texto do link */
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de entrada */
+button {
+    background-color: #77c97c;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #66b06a;
+}
